@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="">
+        <table align="center" cellpadding="10px">
+            <tr>
+                <td><label for="firstname">First Name</label></td>
+                <td><input type="text" placeholder="firstname" name="firstname" id="firstname" ></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name</label></td>
+                <td><input type="text" placeholder="lastname" name="lastname" id="lastname" ></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of birth</label></td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="emailid">Email id:</label></td>
+                <td><input type="email" placeholder="email" name="email" id="emailid" ></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile Number</label></td>
+                <td><input type="number" maxlength="10" name="mobile" id="mobile"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>Male<input type="radio" name="gender" value="Male"></td>
+                <td>Female<input type="radio" name="gender" value="Female"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea name="address" id="address" placeholder="Address" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="pincode">Pincode</label></td>
+                    <td><input placeholder="Pincode" type="number" maxlength="6" name="pincode" id="pincode"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td><input type="text" placeholder="Country" value="India" id="country" name="country"></td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobby</label></td>
+                <td><select name="hobby" id="hobby">
+                    <option value="Reading">Reading</option>
+                    <option value="Singing">Singing</option>
+                    <option value="Coding">Coding</option>
+                    <option value="Gaming">Gaming</option>
+                    <option value="Cooking">Cooking</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
