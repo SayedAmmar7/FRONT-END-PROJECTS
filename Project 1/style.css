@@ -63,6 +63,7 @@ display: flex;
 #main #right{
     width: 70%;
     height: 100%;
+    
 }
 #main #nav{
     
@@ -90,4 +91,53 @@ display: flex;
 #main #nav ul li:first-child{
     
     border-bottom: 1px solid #fff;
+}
+#right #text{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#text h3{
+    font-size: 40px;
+    line-height: 1;
+    font-weight:400;
+    
+}
+#text h1{
+    font-size: 200px;
+    line-height: 1;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+#text #input{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #fff;
+}
+#text input{
+    
+    width: 100%;
+    padding: 12px 22px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 30px;
+
+    
+    
+}
+#text i{
+    font-size: 30px;
+}
+#text input::placeholder{
+    color: #fff;
+    
+}
+small{
+    position: absolute;
+    bottom: -40%;
+    right: 10%;
 }
